@@ -1,4 +1,4 @@
-name: gpu_test_conda
+name: pytorch_gpu_test
 channels:
   - pytorch
   - conda-forge
