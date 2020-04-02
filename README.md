@@ -1,9 +1,10 @@
 # Google Colab remote GPUs vs. mobile GPU performance
 
-Two experiments to test differences in training times between free Colab GPUs and medium-class mobile GPU.
+Two experiments to test differences in training times between free Colab GPUs and two mobile GPUs.
 
 ## GPUs tested  
 - GeForce GTX 1050 Mobile (local notebook)
+- GeForce RTX 2060 Mobile (local notebook)
 - Tesla P4 (Colab free)
 - Tesla K80 (Colab free)
 - Telsa T4 (Colab free)
@@ -21,7 +22,7 @@ Sample of generated images and losses:
 ![](https://github.com/PiotrChaberski/GPU_tests/blob/master/GAN_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200317175444/image_at_epoch_50.png) ![](https://github.com/PiotrChaberski/GPU_tests/blob/master/GAN_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200317175444/epoch_losses.png)
 
 ## Experiment no. 1 training times comparison
-![](https://github.com/PiotrChaberski/GPU_tests/blob/master/summary_results/gan_times_summary.png)
+![](https://github.com/PiotrChaberski/GPU_tests/blob/master/summary_results/gan_times_summary_v2.png)
 
 ## Experiment no. 2 definition 
 - task: image classification using Resnet-18
@@ -35,4 +36,4 @@ Losses and accuracy:
 ![](https://github.com/PiotrChaberski/GPU_tests/blob/master/Resnet_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200318213725/epoch_losses.png) ![](https://github.com/PiotrChaberski/GPU_tests/blob/master/Resnet_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200318213725/epoch_accuracy.png)
 
 ## Experiment no. 2 training times comparison
-![](https://github.com/PiotrChaberski/GPU_tests/blob/master/summary_results/resnet_times_summary.png)
+![](https://github.com/PiotrChaberski/GPU_tests/blob/master/summary_results/resnet_times_summary_v2.png)
