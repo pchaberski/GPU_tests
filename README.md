@@ -20,10 +20,10 @@ Two experiments to test differences in training times between free Colab GPUs an
 
 ## Experiment no. 1 model results
 Sample of generated images and losses:  
-![](https://github.com/PiotrChaberski/GPU_tests/blob/master/GAN_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200317175444/image_at_epoch_50.png) ![](https://github.com/PiotrChaberski/GPU_tests/blob/master/GAN_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200317175444/epoch_losses.png)
+![](GAN_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200317175444/image_at_epoch_50.png) ![](GAN_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200317175444/epoch_losses.png)
 
 ## Experiment no. 1 training times comparison
-![](https://github.com/PiotrChaberski/GPU_tests/blob/master/summary_results/gan_times_summary_v3.png)
+![](summary_results/gan_times_summary_v3.png)
 
 ## Experiment no. 2 definition 
 - task: image classification using Resnet-18
@@ -34,7 +34,7 @@ Sample of generated images and losses:
 
 ## Experiment no. 2 model results
 Losses and accuracy:  
-![](https://github.com/PiotrChaberski/GPU_tests/blob/master/Resnet_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200318213725/epoch_losses.png) ![](https://github.com/PiotrChaberski/GPU_tests/blob/master/Resnet_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200318213725/epoch_accuracy.png)
+![](Resnet_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200318213725/epoch_losses.png) ![](Resnet_GPU_tests/remote_results/Tesla_P100-PCIE-16GB_20200318213725/epoch_accuracy.png)
 
 ## Experiment no. 2 training times comparison
-![](https://github.com/PiotrChaberski/GPU_tests/blob/master/summary_results/resnet_times_summary_v3.png)
+![](summary_results/resnet_times_summary_v3.png)
